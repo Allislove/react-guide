@@ -1,32 +1,9 @@
-# Getting Started with Create React App 
-- Este tutorial require que tengas instalado Node y NPM, Teniendo instalado NodeJS y NPM, Vamos a la consola de nuestro sistema operativo y ejecutamos.
+# Props
+- Este tutorial asume que ya has visto el tema anterior, acerca de Componentes, este es su complemento.
+
+
 ###
-    * npx create-react-app myapp
-- 
-    *   myapp = (Nombre que le quieres dar a tu aplicación Web.)
-
-- Tutorial de React Author: 
-    * Andrés Romaña <andrewss970@gmail.com> 
-    * https://andresromana.com
-
-
-### Este es un tutorial de React Basico
-- Trataremos muchos conceptos, como:
-    * Componentes(Components), 
-    * Propiedades(Props), 
-    * Estado(State), 
-    * Eventos(Events), 
-    * Hooks(useState, useEffect)
-
-
-#### Ramas!
-- Para seguir este tutorial te recomiendo identificar las ramas, donde cada una tendra semejanza entre si, siguiendo los temas uno a uno, y asi comprenderlos en su unión.
-    * components
-    * props
-    * state
-    * events
-    * forms
-    * hooks
-    * https://github.com/Allislove/react-guide/branches
-
-
+- Entonces podemos evidenciar que el componente <b>view.jsx</b>, contiene al componente <b>users.jsx</b>, ambos seran representados, pero el ultimo, solo sera representado si el primero lo es, con ello podemos ver entonces en funcionamiento las propiedades!
+- Que hacemos?
+    * Debemos de tener presente que para <b>recibir props</b>, en nuestro metodo(función de JavaScript), debemos de pasarle el parametro props, y estas pueden ser pasadas en <b>Funciones normales</b>(https://www.w3schools.com/js/js_functions.asp) y en <b>Arrow functions</b>(https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
+    * Lo que hacemos es que en el componente principal (view.jsx), estamos creando la data de los usuarios, y luego en este mismo componente mandamos a llamar al componente user <b>( <b Users users={ allUsers } >)</b>, donde este componente recibe una propiedad(props), que la nombramos identifa pero en minusculas para tener conocimiento de lo que estamos haciendo o de que tipo de datos tendra esa variable, y además le pasamos <b>{ allUsers }</b> dentro de Handlebars(https://devdocs.io/handlebars/), que es para poder utilizar codigo js, sin ningun problema, <b>Nota:</b> Es importante que sepan que le pueden pasar cuan cantidad de props(propiedades), a un componente y luego tratar o interactuar con ellas, en el mismo componente. Ejemplo <b>( <b Users users={ allUsers } title="Hello World!" >)</b>, de esa forma! Asi es, sin coma, simplemente separandolos con un espacio, y para utilizarlo, simplemente accedemos al componente users.jsx, y lo recibimos con <b> props.title</b>
