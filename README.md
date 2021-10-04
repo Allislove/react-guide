@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Getting Started with Create React / Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Entendiendo el concepto de Componentes
+    * La fuente de la verdad de React!
 
-## Available Scripts
+- La forma más facil, para sumergirnos en los componentes es empezar por un buen camino, se preguntaran, como empezamos por un buen camino? Pues, en nuestro proyecto lo principal deberiamos de tener una carpeta que se llame Componentes o Components(en ingles), como les parezca mejor.
+    * Dentro de esta carpeta es donde tendremos cada uno de nuestros componentes.
+    - Que son ?
+        * Pues podemos imaginar o hacer algun ejemplo de componentes, basandonos en piezas, para completar un todo, es decir, tenemos una <b> Aplicación Web </b>, esta se podra partir en muchos pedazos, que estos podrian ser el Navbar, El contenido del sitio Web(Section, Main... etc), entonces a esto podriamos llamarlos (Componentes), cada una de estas partes podria ser un Componente, que con esto podremos ahorrarnos muhos pasos para crear nuestra aplicación por partes y avanzar de una manera mas eficas, para completar el todo.
 
-In the project directory, you can run:
 
-### `npm start`
+- Existen Componentes Padres y Componentes Hijos, en esta Aplicación Web, podemos observar y analizar, que hay varios padres, como es esto? Si, principalmente el Padre mayor, es <b>index.js</b>, este contiene al componente <b>App.js</b>, y este ultimo contiene a los demás componentes, que en este caso son solo tres. <b>Navbar.jsx</b>, <b>Content.jsx</b>, <b>Footer.jsx</b>, Si asi es, se preguntaran y el componente <b>header.jsx</b>? a este componente lo esta conteniendo, <b> Navbar.jsx </b>, y solo si Navbar se representa en el componente Principal(App.jsx), sera mostrado el contenido que este en (Header.jsx).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Entonces como pueden ver se han creado cuatro componentes.
+    * Navbar
+        * Componente que aparece al inicio del sitio web, y este además contiene otro componente, que es el componente (Header), este lo he hecho para que puedan identificar de una manera mas sencilla el funcionamiento de estos, Header! solo contiene el titulo principal, que dice React/Component.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    * Header
+        * Este componente contiene el titulo principal del tema(Componentes), y este como mencione anteriormente esta metido en el componente Navbar.
+        Este componente sera mostrado solo si Navbar es rendezirado, como asi que renderizado? Si, para que se renderice este componente. <b> Navbar </b> debe de estar en el Componente padre, que en este caso es <b> App </b>
 
-### `npm test`
+    * Content
+        * Este componente contiene el contenido principal del Sitio web
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    * Footer
+        * Este componente muestra una sección de navegacion de hipervinculos, que generalmente se representan al final de un sitio web.
 
-### `npm run build`
+# NOTA: 
+-   El sitio ha sido un poco estilizado con Bootstrap, para una mejor visualización del contenido.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Te recomiendo que clones este repositorio y analices muy bien la estructura que he generado para que asi puedas entender mejor el concepto de Componentes de React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://es.reactjs.org/docs/components-and-props.html
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- En el próximo capitulo(Otra rama!), les hablare acerca de las props y como hacerlo.
