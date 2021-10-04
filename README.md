@@ -1,5 +1,5 @@
 # Props
-- Este tutorial asume que ya has visto el tema anterior, acerca de Componentes, este es su complemento.
+- Este tutorial asume que ya has visto el tema anterior, acerca de <b>Componentes</b>, este es su complemento.
 
 
 ###
