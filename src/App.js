@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+            className="App-link"
+            href="https://github.com/Allislove/react-guide/branches"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React Guide / Andrés Romaña
+          </a>
+      </h1>
+
+      <b> En el enlace de arriba, podras ir a cada una de las ramas para ver su contenido!</b>
+
+
+      <p> <a href="https://andresromana.com"> Y presionando aqui! podras ir a mi Blog </a> </p>
+
     </div>
   );
 }
