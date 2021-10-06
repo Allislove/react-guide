@@ -1,32 +1,14 @@
-# Getting Started with Create React App 
-- Este tutorial require que tengas instalado Node y NPM, Teniendo instalado NodeJS y NPM, Vamos a la consola de nuestro sistema operativo y ejecutamos.
-###
-    * npx create-react-app myapp
-- 
-    *   myapp = (Nombre que le quieres dar a tu aplicación Web.)
+# React / State 
+- Este tutorial asume que ya has visto componentes (Components), si aun no lo haces te recomiendo que le eches un vistazo: <b>https://github.com/Allislove/react-guide/branches</b>
 
-- Tutorial de React Author: 
-    * Andrés Romaña <andrewss970@gmail.com> 
-    * https://andresromana.com
+### About State
+- En esta sección tratamos el estado y comprendemos su funcionamiento, además conocemos los metodos de ciclo de vida, que se usan para <b>montar(Mount)</b> y <b>desmontar(unmount)</b>, vamos a hacer un reloj para demostrar esto de una manera amplia y sencilla, esto se ha logrado gracias a la muy buena documentación de React <b> https://es.reactjs.org/docs/state-and-lifecycle.html</b>.
 
 
-### Este es un tutorial de React Basico
-- Trataremos muchos conceptos, como:
-    * Componentes(Components), 
-    * Propiedades(Props), 
-    * Estado(State), 
-    * Eventos(Events), 
-    * Hooks(useState, useEffect)
+- Lee las indicaciones que estan en el componente de clase Clock.jsx, para que entiendas mejor el funcionamiento del estado y asi poder comprender a setState y a los metodos de ciclo de vida.
 
 
-#### Ramas!
-- Para seguir este tutorial te recomiendo identificar las ramas, donde cada una tendra semejanza entre si, siguiendo los temas uno a uno, y asi comprenderlos en su unión.
-    * components
-    * props
-    * state
-    * events
-    * forms
-    * hooks
-    * https://github.com/Allislove/react-guide/branches
+
+
 
 
