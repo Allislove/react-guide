@@ -1,23 +1,15 @@
 import './App.css';
+import Actividad from './components/actividad';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        <a
-            className="App-link"
-            href="https://github.com/Allislove/react-guide/branches"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Guide / Andrés Romaña
-          </a>
-      </h1>
+      <Actividad />
 
-      <b> En el enlace de arriba, podras ir a cada una de las ramas para ver su contenido!</b>
-
-
-      <p> <a href="https://andresromana.com"> Y presionando aqui! podras ir a mi Blog </a> </p>
+      <br />
+      <br />
+      <br />
+      <p> <a href="https://andresromana.com"> Pinchando aqui! podras ir a mi Blog </a> </p>
 
     </div>
   );
