@@ -1,9 +1,8 @@
 # Getting Started with Create React App 
-- Este tutorial require que tengas instalado Node y NPM, Teniendo instalado NodeJS y NPM, Vamos a la consola de nuestro sistema operativo y ejecutamos.
+- Este tutorial require que tengas instalado Node y NPM, Teniendo instalado NodeJS y NPM, Vamos a la consola (terminal de Windows o bash de ubuntu) de nuestro sistema operativo y ejecutamos.
 ###
-    * npx create-react-app myapp
-- 
-    *   myapp = (Nombre que le quieres dar a tu aplicación Web.)
+    * git clone https://github.com/Allislove/react-guide.git
+    * npm install
 
 - Tutorial de React Author: 
     * Andrés Romaña <andrewss970@gmail.com> 
